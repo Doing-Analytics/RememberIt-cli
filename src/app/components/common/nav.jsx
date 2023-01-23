@@ -17,7 +17,7 @@ function CurrentUserNav() {
 
 function Nav() {
   return (
-    <nav className="sticky top-0 z-50">
+    <nav className="fixed top-0 left-0 right-0 z-50">
       <section className="flex items-center justify-end h-12 text-white bg-gray-800">
         <CurrentUserNav />
       </section>

@@ -1,6 +1,6 @@
 import "./globals.css";
-import Nav from "./nav";
-import Sidebar from "./sidebar";
+import Nav from "./components/common/nav";
+import Sidebar from "./components/common/sidebar";
 
 export default function RootLayout({ children }) {
   return (
@@ -11,12 +11,14 @@ export default function RootLayout({ children }) {
       */}
       <head />
       <body>
-        <Nav />
-        <div className="flex">
-          <aside className="absolute top-0 bottom-0 h-full">
-            <Sidebar />
-          </aside>
-          <div>{children}</div>
+        <div className="min-h-screen">
+          <Nav />
+          <div className="flex ">
+            <aside className="fixed h-full  pt-10 side-bar-h">
+              <Sidebar />
+            </aside>
+            <div>{children}</div>
+          </div>
         </div>
       </body>
     </html>
