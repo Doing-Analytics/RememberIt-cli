@@ -9,11 +9,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSearch,
   faAmbulance,
-  faAnchor
+  faAnchor,
 } from "@fortawesome/free-solid-svg-icons";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  return <main className="text-xl"></main>;
+  return <main className="text-4xl">wwfnnnnnnnnnnnnnnnnnffffffw</main>;
 }
