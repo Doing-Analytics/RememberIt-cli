@@ -65,8 +65,8 @@ function Sidebar() {
   ];
   return (
     <div className="h-full bg-gray-700 w-48  ">
-      <div className="pl-3 py-4 text-white bg-gray-700 h-full flex-col content-between justify-between">
-        <div className="">
+      <div className=" py-4 text-white bg-gray-700 h-full flex flex-col justify-between">
+        <div className="pl-3">
           <button className="mt-3 border-solid border border-slate-500 rounded-2xl flex justify-center items-center pl-1 pr-3 py-1 hover:bg-gray-500">
             <svg
               viewBox="0 0 840 1000"
@@ -88,9 +88,10 @@ function Sidebar() {
             );
           })}
         </div>
-        <div>
-          <div className="pt-2 my-2 border-t border-gray-500">邀請隊友</div>
-          <div className="pt-2 border-t border-gray-500">說明與開始使用</div>
+        <div className=" flex justify-center border-gray-500 border-solid border-t-2 ">
+          <button className=" mx-5 border-gray-500 mt-2 ">邀請</button>
+          <div className="mt-2 border-gray-500 border-solid border-r-2	"></div>
+          <button className=" mx-5  border-gray-500 mt-2">說明</button>
         </div>
       </div>
     </div>

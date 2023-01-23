@@ -23,8 +23,5 @@ body {
   overflow-x: hidden;
 }
 
-.side-bar-h {
-  height: calc(100h - 48px)
-}
 
 
